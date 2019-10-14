@@ -13,6 +13,6 @@
 <body>
 <h2>luv2code Company Home Page</h2>
 <hr>
-Welcome to the luv2code Company Home Page 2
+Welcome to the luv2code Company Home Page 2 Yoohoo
 </body>
 </html>
