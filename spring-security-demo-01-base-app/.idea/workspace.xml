@@ -7,8 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3b0a57b-6dea-4a24-8f1d-48fb5374a016" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/config/DemoSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/config/SecurityWebApplicationInitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -55,6 +56,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.33" />
@@ -159,7 +161,7 @@
       <updated>1571043109680</updated>
       <workItem from="1571043113331" duration="5064000" />
       <workItem from="1571050452688" duration="1595000" />
-      <workItem from="1571053465709" duration="1134000" />
+      <workItem from="1571053465709" duration="1994000" />
     </task>
     <task id="LOCAL-00001" summary="Add Maven dependencies for Spring Security">
       <created>1571054107648</created>
@@ -168,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571054107648</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add Maven dependencies for Spring Security web/config">
+      <created>1571054621169</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571054621169</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +198,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Maven dependencies for Spring Security" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Maven dependencies for Spring Security" />
+    <MESSAGE value="Add Maven dependencies for Spring Security web/config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Maven dependencies for Spring Security web/config" />
   </component>
 </project>
