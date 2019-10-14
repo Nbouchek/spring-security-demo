@@ -7,6 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="security" uri="http://www.springframework.org/security/tags" %>
 <html>
 <head>
     <title>Spring MVC Security Demo</title>
@@ -17,7 +18,17 @@
 <p>
     Welcome to the luv2code Company Home Page!
 </p>
-Add logout button
+<hr>
+<%-- display user name and role --%>
+<p>
+    User: <security:authentication property="principal.username"/>
+    <br>
+    <br>
+    Role(s): <security:authentication property="principal.authorities"/>
+</p>
+<hr>
+
+<%--Add logout button--%>
 <form:form action="${pageContext.request.contextPath}/logout"
            method="post">
     <input type="submit" value="Logout"/>
