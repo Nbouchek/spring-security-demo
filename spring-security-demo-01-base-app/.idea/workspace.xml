@@ -6,11 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3b0a57b-6dea-4a24-8f1d-48fb5374a016" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/plain-login.jsp" afterDir="false" />
+    <list default="true" id="d3b0a57b-6dea-4a24-8f1d-48fb5374a016" name="Default Changelist" comment="Add login error message">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/config/DemoSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/config/DemoSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/plain-login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/plain-login.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -162,7 +160,7 @@
       <updated>1571043109680</updated>
       <workItem from="1571043113331" duration="5064000" />
       <workItem from="1571050452688" duration="1595000" />
-      <workItem from="1571053465709" duration="4959000" />
+      <workItem from="1571053465709" duration="5607000" />
     </task>
     <task id="LOCAL-00001" summary="Add Maven dependencies for Spring Security">
       <created>1571054107648</created>
@@ -192,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571057962765</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add custom login form">
+      <created>1571059060937</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1571059060937</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +220,7 @@
     <MESSAGE value="Add Maven dependencies for Spring Security" />
     <MESSAGE value="Add Maven dependencies for Spring Security web/config" />
     <MESSAGE value="Add in memory user authentications." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add in memory user authentications." />
+    <MESSAGE value="Add custom login form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add custom login form" />
   </component>
 </project>
