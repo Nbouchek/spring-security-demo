@@ -5,7 +5,7 @@
   Time: 10:50 AM
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
     <title>Spring MVC Security Demo</title>
@@ -13,6 +13,6 @@
 <body>
 <h2>luv2code Company Home Page</h2>
 <hr>
-Welcome to the luv2code Company Home Page
+Welcome to the luv2code Company Home Page 2
 </body>
 </html>
