@@ -31,6 +31,10 @@ public class DemoSecurityConfig extends WebSecurityConfigurerAdapter {
                 .permitAll()
                 .and()
                 .logout()
+                .permitAll()
+                .and()
+                .logout()
+                .logoutSuccessUrl("/")  // after logout then redirect to landing page (root)
                 .permitAll();
     }
 }
