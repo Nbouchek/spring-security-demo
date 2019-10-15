@@ -8,25 +8,41 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ taglib prefix="security" uri="http://www.springframework.org/security/tags" %>
+<%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
+<sec:authentication property="principal" />
 <html>
 <head>
     <title>Spring MVC Security Demo</title>
 </head>
 <body>
-<h2>luv2code Company Home Page</h2>
+<h2>luv2code Company employee Page</h2>
 <hr>
 <p>
-    Welcome to the luv2code Company Home Page!
+    Welcome to the luv2code Company employee Page!
 </p>
 <hr>
+
 <%-- display user name and role --%>
 <p>
-    User: <security:authentication property="principal.username"/>
-    <br>
-    <br>
+    User: <security:authentication property="principal.username" />
+    <br><br>
     Role(s): <security:authentication property="principal.authorities"/>
 </p>
 <hr>
+
+<%--Add a link to poin to /leaders ... this is for the managers--%>
+<p>
+    <a href="${pageContext.request.contextPath}/leaders">Leadership Meeting</a>
+</p>
+
+<hr>
+<%--Add a link to poin to /systems ... this is for admin--%>
+<p>
+    <a href="${pageContext.request.contextPath}/systems">Admin Meeting</a>
+</p>
+<hr>
+
+
 
 <%--Add logout button--%>
 <form:form action="${pageContext.request.contextPath}/logout"
