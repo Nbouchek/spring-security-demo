@@ -22,6 +22,6 @@
     <br>
 </p>
 <hr>
-<a href="${pageContext.request.contextPath}/">Back to the employee Page</a>
+<a href="${pageContext.request.contextPath}/employees">Back to the employee Page</a>
 </body>
 </html>
