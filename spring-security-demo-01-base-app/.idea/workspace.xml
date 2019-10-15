@@ -6,11 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3b0a57b-6dea-4a24-8f1d-48fb5374a016" name="Default Changelist" comment="">
+    <list default="true" id="d3b0a57b-6dea-4a24-8f1d-48fb5374a016" name="Default Changelist" comment="Dispay content based on roles.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/employee.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/employee.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/leaders.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/leaders.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/systems.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/systems.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -268,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571127703621</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Remove ctag">
+      <created>1571127929591</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1571127929591</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +306,8 @@
     <MESSAGE value="Add a Public Landing Page." />
     <MESSAGE value="rename jsp pages." />
     <MESSAGE value="Create custom access denied Page." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create custom access denied Page." />
+    <MESSAGE value="Remove ctag" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove ctag" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

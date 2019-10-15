@@ -20,29 +20,28 @@
     Welcome to the luv2code Company employee Page!
 </p>
 <hr>
-
 <%-- display user name and role --%>
 <p>
-    User: <security:authentication property="principal.username" />
+    User: <security:authentication property="principal.username"/>
     <br><br>
     Role(s): <security:authentication property="principal.authorities"/>
 </p>
+<security:authorize access="hasRole('MANAGER')">
+    <hr>
+    <%--Add a link to poin to /leaders ... this is for the managers--%>
+    <p>
+        <a href="${pageContext.request.contextPath}/leaders">Leadership Meeting</a>
+    </p>
+</security:authorize>
+
+<security:authorize access="hasRole('ADMIN')">
+    <hr>
+    <%--Add a link to poin to /systems ... this is for admin--%>
+    <p>
+        <a href="${pageContext.request.contextPath}/systems">Admin Meeting</a>
+    </p>
+</security:authorize>
 <hr>
-
-<%--Add a link to poin to /leaders ... this is for the managers--%>
-<p>
-    <a href="${pageContext.request.contextPath}/leaders">Leadership Meeting</a>
-</p>
-
-<hr>
-<%--Add a link to poin to /systems ... this is for admin--%>
-<p>
-    <a href="${pageContext.request.contextPath}/systems">Admin Meeting</a>
-</p>
-<hr>
-
-
-
 <%--Add logout button--%>
 <form:form action="${pageContext.request.contextPath}/logout"
            method="post">
